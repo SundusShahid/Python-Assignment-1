@@ -38,7 +38,7 @@ for i in range(0, remain!=0):
 	
 	if(rt[count]==0):
 		if(flag==1):
-			remain--	
+			remain-=remain	
 			print(count+1 "    ")
 			print(time-at[count] "
 			print(time-at[count]-bt[count])
@@ -49,7 +49,7 @@ for i in range(0, remain!=0):
 	if(count==n-1):
 		count=0
 	else if(at[count]<=time):
-		count++
+		count+=count
 	else:
 		count=0
 
