@@ -21,8 +21,7 @@ print("Enter slice time for 1st queue RR: ")
 RR_queue1=int(input())
 print("Enter slice time for 2nd queue RR: ")
 RR_queue2=int(input())
-print("Enter slice time for 3rd queue FCFS: ")
-FCFS_queue3=int(input())
+# 3rd queue is FCFS
 time=0;
 remaining_time=[]
 
