@@ -10,7 +10,7 @@ burst_time=list(map(int, input().split()))
 
 
 waiting_time=[]
-avg_wait_time=0s
+avg_wait_time=0
 turnaround_time=[]
 avg_turnaround_time=0
 waiting_time.insert(0,0)
